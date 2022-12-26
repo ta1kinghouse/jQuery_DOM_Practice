@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="app.css">
+    <title>Movies App!</title>
+</head>
+<body>
+    <h1 id="header">My Movie Ratings</h1>
+    <form id="moviesForm">
+        <div  class="formInputs">
+            <label for="title">Title</label>
+            <input id="title" type="text" min="2">
+        </div>
+        <div class="formInputs">
+            <label for="rating">Rating</label>
+            <input id="rating"  type="number" min="0" max="10">
+        </div>
+        <button id="submitForm" type="submit">Submit!</button>
+    </form>
+
+<br>
+
+    <table class="ratingHeaders">
+        <thead>
+        <tr>
+            <th id="thTitle">Title</th>
+            <th id="thRating">Rating</th>
+            <th id="delete">Delete</th>
+        </tr>
+         </thead>
+         <tbody id="movieTBody">
+
+         </tbody>
+    </table>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

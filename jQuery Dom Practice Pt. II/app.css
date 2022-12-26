@@ -1,0 +1,71 @@
+#header {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.formInputs {
+    display: inline-block;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#moviesForm {
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#title {
+    padding: 5px 5px;
+    line-height: 50%;
+}
+
+#rating {
+    padding: 5px 5px;
+    line-height: 50%;
+}
+
+#submitForm {
+    background-color: lightskyblue;
+    border-color: lightskyblue;
+    border-radius: 10%;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1rem;
+}
+
+table {
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.ratingHeaders {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1rem;
+    background-color: rgb(233, 232, 232);
+    border-color: grey;
+    border-width: 0.5rem;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.addedMovie {
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#movieTBody {
+    background-color:rgb(242, 239, 239)
+}
+
+#deleteMovie {
+    background-color: coral;
+    border-color: coral;
+    border-radius: 10%;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+}
+
